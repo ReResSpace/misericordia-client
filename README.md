@@ -1,5 +1,6 @@
 # Misericordia
-![image](https://github.com/Halqq/misericordia-client/assets/72313113/f2a98488-5978-4e6a-86d1-7a5c896dd438)
+![image](https://github.com/Halqq/misericordia-client/assets/72313113/67a33855-46da-48c6-a495-a1027a97b7d2)
+
 
 Misericordia!!!!!!!
 
