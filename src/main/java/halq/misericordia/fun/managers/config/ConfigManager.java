@@ -26,7 +26,7 @@ public class ConfigManager {
 
     //TODO: make load colors work
 
-    private static final String fileName = "Aurora/";
+    private static final String fileName = "Misericordia/";
     private static final String moduleName = "modules/";
     public static ConfigManager INSTANCE;
 

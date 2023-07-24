@@ -32,10 +32,10 @@ public class MessageUtil implements Minecraftable {
         if (module.getName().equals("ClickGui") || module.getName().equals("HUD")) return;
 
         if (module.isEnabled()) {
-            sendOverwriteMessage("[" + ChatFormatting.DARK_PURPLE + "Aurora" + ChatFormatting.GRAY + "] " + ChatFormatting.GRAY + module.getName() + " toggled " + ChatFormatting.GREEN + "on" + ChatFormatting.GRAY + ".", 7183);
+            sendOverwriteMessage("[" + ChatFormatting.DARK_RED + "Misericordia" + ChatFormatting.GRAY + "] " + ChatFormatting.GRAY + module.getName() + " toggled " + ChatFormatting.GREEN + "on" + ChatFormatting.GRAY + ".", 7183);
         }
         else{
-            sendOverwriteMessage("[" +  ChatFormatting.DARK_PURPLE + "Aurora" + ChatFormatting.GRAY + "] " +  ChatFormatting.GRAY + module.getName() + " toggled " + ChatFormatting.RED + "off" + ChatFormatting.GRAY + ".", 7183);
+            sendOverwriteMessage("[" +  ChatFormatting.DARK_RED + "Misericordia" + ChatFormatting.GRAY + "] " +  ChatFormatting.GRAY + module.getName() + " toggled " + ChatFormatting.RED + "off" + ChatFormatting.GRAY + ".", 7183);
         }
 
     }
