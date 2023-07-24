@@ -17,5 +17,7 @@ Visivel - logo and help me with ideas for modules
 AcessModifier - help me with some things in the client base  
 
 # Screenshots
+![image](https://github.com/Halqq/misericordia-client/assets/72313113/a4a33b9b-aadf-4d29-b327-9042a6076510) ![image](https://github.com/Halqq/misericordia-client/assets/72313113/45a00e50-8f1e-4d79-8e77-ba1e2987434b)
+
 
 
