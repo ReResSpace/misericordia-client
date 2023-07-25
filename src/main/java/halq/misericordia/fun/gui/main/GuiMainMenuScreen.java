@@ -9,6 +9,11 @@ import org.lwjgl.opengl.GL11;
 
 import java.awt.*;
 
+/**
+ * @author Halq
+ * @since 25/07/2023 at 17:46
+ */
+
 public class GuiMainMenuScreen extends GuiScreen {
 
     private final ResourceLocation backgroundTexture = new ResourceLocation("textures/texture/img_1.png");
