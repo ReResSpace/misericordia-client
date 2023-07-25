@@ -6,6 +6,7 @@ import halq.misericordia.fun.executor.Misercordia;
 import halq.misericordia.fun.executor.settings.SettingBoolean;
 import halq.misericordia.fun.executor.settings.SettingDouble;
 import halq.misericordia.fun.executor.settings.SettingInteger;
+import halq.misericordia.fun.gui.main.GuiMainMenuScreen;
 import halq.misericordia.fun.utils.Minecraftable;
 import halq.misericordia.fun.utils.utils.ColorUtil;
 import net.minecraft.util.ResourceLocation;

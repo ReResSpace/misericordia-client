@@ -85,7 +85,7 @@ public class DrawConsole {
         RenderUtil.drawRoundedRect(renderX + 5, renderY + 180, 390, 15, 5, new Color(32, 13, 61, 255));
 
         if(mouseX > renderX + 5 && mouseX < renderX + 395 && mouseY > renderY + 180 && mouseY < renderY + 195 || isTyping){
-            float alpha = (float) (Math.sin(System.currentTimeMillis() / 500.0) * 0.5 + 0.5); // Varie o valor 1000.0 para ajustar a velocidade do efeito
+            float alpha = (float) (Math.sin(System.currentTimeMillis() / 500.0) * 0.5 + 0.5);
             int alphaValue = (int) (alpha * 255);
 
             RenderUtil.drawLine(renderX + 5, renderY + 180, renderX + 395, renderY + 180, 1, new Color(255, 0, 240, alphaValue).getRGB());
@@ -97,9 +97,9 @@ public class DrawConsole {
         }
 
         int logCount = Math.min(maxLogs, logs.size());
-        int startIndex = Math.max(0, logs.size() - logCount); // Garante que startIndex não seja negativo
+        int startIndex = Math.max(0, logs.size() - logCount);
 
-        int lineHeight = 5; // Valor ajustável para controlar a diferença vertical entre as linhas
+        int lineHeight = 5;
 
         for (int i = startIndex; i < logs.size(); i++) {
             String log = logs.get(i);
@@ -110,7 +110,7 @@ public class DrawConsole {
                 List<String> wrappedLines = Minecraftable.mc.fontRenderer.listFormattedStringToWidth(log, maxWidth);
                 int lineNumber = 0;
                 for (String wrappedLine : wrappedLines) {
-                    int wrappedLineY = renderY + 20 + ((i - startIndex) * lineHeight) + (lineNumber * lineHeight); // Adiciona o deslocamento do índice i
+                    int wrappedLineY = renderY + 20 + ((i - startIndex) * lineHeight) + (lineNumber * lineHeight);
                     Minecraftable.mc.fontRenderer.drawString(wrappedLine, (renderX + 10) * 2, wrappedLineY * 2, -1);
 
                     lineNumber++;
@@ -175,7 +175,7 @@ public class DrawConsole {
             } else if (keyCode == 28) {
                 if(inputString.length() > 0) {
                     CommandExc.excString(inputString);
-                    inputString = ""; // Limpa a string de entrada após o comando ser executado
+                    inputString = "";
                 }
             } else if (keyCode == 14) {
                 if (inputString.length() > 0) {
@@ -250,7 +250,7 @@ public class DrawConsole {
                 lastInputStringIndex--;
                 inputString = lastInputString.get(lastInputStringIndex);
             }
-        } else if (keyCode == 208) { // Tecla de seta para baixo
+        } else if (keyCode == 208) {
             if (lastInputStringIndex < lastInputString.size() - 1) {
                 lastInputStringIndex++;
                 inputString = lastInputString.get(lastInputStringIndex);
